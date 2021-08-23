@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/menuDetalhado"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/red">
+        android:backgroundTint="@color/red">
 
         <TextView
             android:layout_width="wrap_content"
