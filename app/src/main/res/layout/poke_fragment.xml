@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelFragment"
+    android:id="@+id/telaLogin"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/menuVermelho"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/menuDetalhado"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/ol_xpto"
+            android:textColor="#FFECB3"
+            android:textSize="11sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nickname"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cod_123456789"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="75dp"
+            android:textSize="12sp">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/red"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            android:src="@drawable/configuracao"
+            tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/raster"
+            android:scaleType="centerInside"
+            android:backgroundTint="@color/red"
+            android:contentDescription="@string/todo">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_app"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo">
+
+        </ImageView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/menuDetalhado"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/menuVermelho"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Bulbasaur"
+                android:layout_gravity="center_horizontal">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/bulbassaur"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bulbasaur"
+                android:contentDescription="@string/app_name">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/evolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/menuDetalhado"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/evolutionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/Evoluções">
+
+        </TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text="@string/bulbassaur">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/bulbassaurev"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bulbasaur"
+                 />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:text="@string/ivysaur">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/ivysaurev"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ivysaur"
+                 />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:text="@string/venosaur">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/venosaurev"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/venosaur"
+                android:contentDescription="@string/venosaur" />
+
+        </androidx.cardview.widget.CardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/evolution"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".acitivy.SkillActivity">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type">
+        </TextView>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/typeGrass"
+                android:layout_width="85dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/green"
+                android:text="@string/grass"
+                android:textColor="#0D47A1"
+                android:textSize="10dp"
+                tools:ignore="SpUsage"></Button>
+
+            <Button
+                android:id="@+id/typePoison"
+                android:layout_width="85dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/poison"
+                android:text="@string/poison"
+                android:textSize="10dp"
+                tools:ignore="SpUsage">
+
+            </Button>
+
+        </GridLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/card"
+        app:layout_constraintTop_toBottomOf="@+id/evolution"
+        android:layout_marginStart="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ability"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Gender"
+                android:textStyle="bold"
+                android:layout_marginTop="42dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Classification"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="42dp"
+                android:text="@string/GenderM"
+                android:textColor="#00838F">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="42dp"
+                android:text="@string/GenderF"
+                android:textColor="#D81B60">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Seed"
+                android:layout_marginStart="100dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Overgrow"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardweakness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/card"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weakness">
+        </TextView>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="4">
+
+            <Button
+                android:id="@+id/Type_Fire"
+                android:layout_width="85dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/orange_fire"
+                android:text="@string/fire"
+                android:textColor="#000000"
+                android:textSize="10dp"
+                tools:ignore="SpUsage" />
+
+            <Button
+                android:id="@+id/Type_Flying"
+                android:layout_width="85dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/flying_blue"
+                android:text="@string/flying"
+                android:textColor="#5D4037"
+                android:textSize="10dp"
+                tools:ignore="SpUsage" />
+
+            <Button
+                android:id="@+id/Type_Psychic"
+                android:layout_width="85dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/pink_psychic"
+                android:text="@string/psychic"
+                android:textColor="#212121"
+                android:textSize="10dp"
+                tools:ignore="SpUsage,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/Type_Ice"
+                android:layout_width="85dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/ice"
+                android:textColor="#5E35B1"
+                android:textSize="10dp"
+                tools:ignore="SpUsage" />
+
+
+        </GridLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vw_Poke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardweakness">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tb_Poke"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck">
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

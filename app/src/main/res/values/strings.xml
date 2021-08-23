@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="app_name2">PokedexMock</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome_pokemon">Butterfree</string>
+    <string name="numero_pokemon">012</string>
+    <string name="chipJogo">Jogo</string>
+    <string name="chipRegiao">Região</string>
+    <string name="chipTipo">Tipo</string>
+    <string name="til_busca">Digite aqui</string>
+    <string name="flying">flying</string>
+    <string name="fire">fire</string>
+    <string name="ol_xpto">xpto</string>
+    <string name="nickname">nickname</string>
+    <string name="cod_123456789">cod</string>
+    <string name="todo">todo</string>
+    <string name="title_app">Pokedex</string>
+    <string name="Bulbasaur">Bulbasaur</string>
+    <string name="Evoluções">Evoluções</string>
+    <string name="ivysaur">Ivysaur</string>
+    <string name="venosaur">Venosaur</string>
+    <string name="type">Type</string>
+    <string name="grass">Grass</string>
+    <string name="poison">Poison</string>
+    <string name="Ability">Ability</string>
+    <string name="Gender">Gender</string>
+    <string name="Classification">Classification</string>
+    <string name="GenderM">87,5%</string>
+    <string name="GenderF">12,5%</string>
+    <string name="Seed">Seed</string>
+    <string name="Overgrow">Overgrow</string>
+    <string name="weakness">Weakness</string>
+    <string name="psychic">Psychic</string>
+    <string name="ice">Ice</string>
+    <string name="bulbassaur">Bulbasaur</string>
+</resources>

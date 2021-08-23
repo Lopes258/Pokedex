@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menuDetalhado" type="id"> </item>
+    <item name="bulbassaur" type="id"> </item>
+    <item name="evolution" type="id"> </item>
+    <item name="evolutionTitle" type="id"> </item>
+    <item name="bulbassaurev" type="id"> </item>
+    <item name="ivysaurev" type="id"> </item>
+</resources>
