@@ -4,13 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
 import com.example.pokedex.R
-import com.example.pokedex.SkillPagerAdapter
+import com.example.pokedex.PokeDetailAdapter
 import com.example.pokedex.databinding.PokeFragmentBinding
-import com.example.pokedex.TMFragment
+import com.example.pokedex.PokeDetailFragment
 import com.google.android.material.tabs.TabLayout
-import com.example.pokedex.LevelFragment
+
 import androidx.fragment.app.Fragment
-import com.example.pokedex.EggFragment
+
 
 
 class DetailActivity : AppCompatActivity() {
