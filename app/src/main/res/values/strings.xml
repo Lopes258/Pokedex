@@ -34,4 +34,12 @@
     <string name="psychic">Psychic</string>
     <string name="ice">Ice</string>
     <string name="bulbassaur">Bulbasaur</string>
+    <string name="cascade_badge">Cascade Badge</string>
+    <string name="thunder_badge">Thunder Badge</string>
+    <string name="rainbow_badge">Rainbow Badge</string>
+    <string name="soul_badge">Soul Badge</string>
+    <string name="marsh_badge">Marsh Badge</string>
+    <string name="volcano_badge">Volcano Badge</string>
+    <string name="earth_badge">Earth Badge</string>
+    <string name="boulder_badge">Boulder Badge</string>
 </resources>

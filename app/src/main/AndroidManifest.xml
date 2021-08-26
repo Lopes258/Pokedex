@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
-            android:name=".MainActivity"
+            android:name=".DetailActivity"
             android:label="Pokedex"
             android:exported="true">
         <intent-filter>
@@ -18,5 +18,6 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
+
     </application>
 </manifest>

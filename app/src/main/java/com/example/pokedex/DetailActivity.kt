@@ -3,24 +3,15 @@ package com.example.pokedex
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
-import com.example.pokedex.R
-import com.example.pokedex.PokeDetailAdapter
-import com.example.pokedex.databinding.PokeFragmentBinding
-import com.example.pokedex.PokeDetailFragment
 import com.google.android.material.tabs.TabLayout
 
-import androidx.fragment.app.Fragment
 
 
 
 class DetailActivity : AppCompatActivity() {
-    private lateinit var binding: PokeFragmentBinding
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = PokeFragmentBinding.inflate(layoutInflater)
-        setContentView(binding.root)
         setContentView(R.layout.poke_fragment)
 
         val levelFragment = LevelFragment()
@@ -33,10 +24,10 @@ class DetailActivity : AppCompatActivity() {
 
         tabLayout.setupWithViewPager(viewPager)
 
-        val fragments = listOf(levelFragment, eggFragment, tmFragment)
+        val fragments = listOf(levelFragment, tmFragment, eggFragment)
         val titles = listOf("Level", "TM", "Egg")
 
-        viewPager.adapter = SkillPagerAdapter(fragments as List<Fragment>, supportFragmentManager, titles )
+        viewPager.adapter = SkillPagerAdapter(fragments , supportFragmentManager, titles )
 
     }
 

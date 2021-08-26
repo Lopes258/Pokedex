@@ -27,8 +27,6 @@ class Poke_Data : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-
         val fragmentList = listOf(LevelFragment(), TMFragment(), EggFragment())
         val fragmentTileList = listOf("Level","Skill","Egg")
 

@@ -4,14 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/activity_main.xml" value="0.13125" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/content_skill.xml" value="0.2552083333333333" />
         <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_egg.xml" value="0.13125" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_insignias.xml" value="0.25" />
         <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_level.xml" value="0.2552083333333333" />
         <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_menu_dex.xml" value="0.13125" />
-        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_pokemon_data.xml" value="0.536" />
-        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_pokemon_detail.xml" value="0.3494809688581315" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_pokemon_data.xml" value="0.23809523809523808" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_pokemon_detail.xml" value="0.4" />
         <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_pokemondata_recyclerview.xml" value="0.13125" />
         <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/fragment_tm.xml" value="0.2552083333333333" />
-        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/poke_fragment.xml" value="0.536" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/grid_insignias.xml" value="0.264" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/item_egg.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/item_level.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/item_tm.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/Lucas Guilherme/Pokedex-main/app/src/main/res/layout/poke_fragment.xml" value="0.152" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24635416666666668" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.23177083333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.32563405797101447" />

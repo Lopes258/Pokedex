@@ -13,11 +13,14 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:id="@+id/menuVermelho"
+        android:id="@+id/menuGrid"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/menuDetalhado"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="@color/red">
+        android:backgroundTint="@color/red"
+        android:background="@color/red">
+
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -105,7 +108,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:backgroundTint="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/menuVermelho"
+        app:layout_constraintTop_toBottomOf="@+id/menuGrid"
         >
         <androidx.cardview.widget.CardView
             android:layout_width="100dp"
@@ -137,8 +140,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:text="151# Mew"
-            android:textSize="10dp"
+            android:text="151 Mew"
+            android:textSize="10sp"
             android:backgroundTint="@color/buttom_trade">
 
         </Button>
@@ -146,8 +149,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:text="002# Ivysaur"
-            android:textSize="10dp"
+            android:text="002 Ivysaur"
+            android:textSize="10sp"
             android:layout_gravity="end"
             android:backgroundTint="@color/buttom_trade">
 
